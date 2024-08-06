@@ -1,0 +1,283 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f8f8f8;
+  padding: 20px 0;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+
+nav {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+nav a {
+  margin: 0 20px;
+  text-decoration: none;
+  color: white;
+  padding: 5px 10px;
+}
+
+nav a:hover {
+  background-color: #3f64c9;
+  border: 1px solid #ffffff;
+}
+.content-area {
+  padding: 40px;
+  border-bottom: 1px solid #cccccc;
+}
+
+.content-area2 {
+  padding: 40px;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.text-block {
+  color: white;
+  margin-bottom: 10px;
+  background-color: #3f64c9;
+  padding: 10px;
+}
+
+.media-element {
+  height: 300px;
+  background-color: #3f64c9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #f8f8f8;
+  padding: 10px 0;
+  text-align: center;
+  border-top: 1px solid #ccc;
+}
+
+/* ABOUT */
+.about-content-area {
+  padding: 40px;
+  background-color: #ffffff;
+}
+
+.about-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.about-text-block {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.6;
+}
+
+.about-media-element {
+  height: 300px;
+  background-color: #3f64c9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.resume-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.media-element-port {
+  margin: 0 auto;
+  width: 50%;
+  background-color: #3f64c9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.text-block-image {
+  margin: 0 auto;
+  width: 50%;
+  background-color: #f8f8f8;
+  padding: 20px 0;
+  margin-bottom: 20px;
+  text-align: left;
+  border-bottom: 5px solid #ccc;
+}
+
+.text-block {
+  text-align: center;
+}
+
+.submit-button {
+  width: 100px;
+}
+
+.submit-button:hover {
+  background-color: #3f64c9;
+  color: white;
+}
+
+/* Used source code for this button then edited it myself */
+.back-button {
+  display: inline-block; /* Make the link behave like a block element */
+  font-size: 14px;
+  color: white;
+  background-color: #333;
+  padding: 10px 20px; /* Add padding to increase the clickable area */
+  text-decoration: none; /* Remove the underline from the link */
+  margin-bottom: 10px;
+  text-align: center; /* Center the text */
+  cursor: pointer; /* Change the cursor to a pointer */
+}
+
+.back-button:hover {
+  background-color: #555; /* Add a hover effect */
+}
+
+/* Used source code for this button then edited it myself */
+.view-more {
+  margin: 0 auto 10px;
+  width: 25%;
+  display: block; /* Make the link behave like a block element */
+  font-size: 14px;
+  color: white;
+  background-color: #333;
+  padding: 10px 20px; /* Add padding to increase the clickable area */
+  text-decoration: none; /* Remove the underline from the link */
+  margin-bottom: 10px;
+  text-align: center; /* Center the text */
+  cursor: pointer; /* Change the cursor to a pointer */
+}
+
+.view-more:hover {
+  background-color: #555; /* Add a hover effect */
+}
+
+.back-to-top {
+  display: inline-block; /* Make the link behave like a block element */
+  font-size: 14px;
+  color: white;
+  background-color: #333;
+  padding: 10px 20px; /* Add padding to increase the clickable area */
+  text-decoration: none; /* Remove the underline from the link */
+  margin-bottom: 10px;
+  text-align: center; /* Center the text */
+  cursor: pointer; /* Change the cursor to a pointer */
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;
+  height: 5vh;
+}
+
+.personal-pic {
+  height: 300px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 25%;
+}
+
+.content {
+  display: flex;
+  margin-right: 25%;
+}
+
+.personal-pic {
+  width: 300px; /* Adjust width as needed */
+
+  margin-right: 20px; /* Adjust spacing between image and text */
+}
+
+.text {
+  margin-top: 10px;
+  line-height: 1.75;
+  flex-grow: 1; /* Allows text to expand to fill remaining space */
+}
+
+.message-box {
+  margin: 0 auto;
+  padding: 50%;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 100px;
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 5px;
+  resize: none;
+  box-sizing: border-box;
+}
+.pngthing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  width: 100%;
+}
+
+.hello-image {
+  width: 1700px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  flex-grow: 1;
+}
+
+.pics-in-port {
+  display: grid;
+  align-items: center; /* Center images vertically */
+  height: 100vh; /* Full viewport height */
+  padding-bottom: 25px; /* Space between the bottom of the page and the images */
+  box-sizing: border-box; /* Ensure padding is included in the height calculation */
+}
+
+.ads-bg {
+  background-color: black;
+}
+
+.resume-section {
+  line-height: 2;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.ucf-logo {
+  padding-left: 44%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+body.fade-in {
+  opacity: 0;
+  animation: fadeIn 1s ease-in forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}

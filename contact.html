@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - Darrien's Personal Website</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Darrien's Personal Website</h1>
+    </header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="about.html">About</a>
+      <a href="resume.html">Resume</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <div id="contact-content" class="content-area contact-content-area">
+      <div class="contact-title">Contact Me:</div>
+      <div class="contact-text-block">
+        <p></p>
+      </div>
+      <div class="contact-form">
+        <form action="#" method="post" id="contactForm">
+          <input
+            class="name-box"
+            type="text"
+            name="name"
+            placeholder="Name"
+            required
+          />
+          <input
+            class="email-box"
+            type="email"
+            name="email"
+            placeholder="Email"
+            required
+          />
+          <input
+            class="message-box"
+            type="text"
+            name="message"
+            placeholder="Message"
+            required
+          />
+          <button type="submit" class="submit-button" id="submitBtn">
+            Submit
+          </button>
+        </form>
+        <p id="thankYouMessage" style="display: none; color: #3f64c9"></p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
